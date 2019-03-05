@@ -9,7 +9,8 @@ The original PDF file will remain in the directory after the script has finished
 ## How to use this batch script.
 
 1. Place a copy of the .bat file in a directory that has a multipage PDF file that needs to be split.
-2. Double click on the .bat file.
+2. Move all other files out of the directory.
+3. Double click on the .bat file.
 
 ### It is recommended that this script be run on a set of copied .TIF images, not on "sole" copies. 
 
