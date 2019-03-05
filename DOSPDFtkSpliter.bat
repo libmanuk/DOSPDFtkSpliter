@@ -4,8 +4,12 @@ echo Using PDFtk for Windows to split a multipage PDF into separate files
 
 echo File to convert:
 for %%i in (*.pdf) do echo %%i
-echo processing files, please wait...
-for %%i in (*.pdf) do pdftk input.pdf burst output output_%02d.pdf
 echo.
+echo processing files, please wait...
+for %%i in (*.pdf) do pdftk %%~ni.pdf dump_data | grep NumberOfPages
+echo.
+for %%i in (*.pdf) do pdftk %%~ni.pdf burst
+echo.
+del "doc_data.txt"
 echo All done!  :)
 pause
