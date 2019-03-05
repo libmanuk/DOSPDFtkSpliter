@@ -8,7 +8,7 @@ echo.
 echo processing files, please wait...
 for %%i in (*.pdf) do pdftk %%~ni.pdf dump_data | grep NumberOfPages
 echo.
-for %%i in (*.pdf) do pdftk %%~ni.pdf burst
+for %%i in (*.pdf) do pdftk %%~ni.pdf burst > nul 2> nul
 echo.
 del "doc_data.txt"
 echo All done!  :)
