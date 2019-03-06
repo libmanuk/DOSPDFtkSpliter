@@ -12,7 +12,7 @@ The original PDF file will remain in the directory after the script has finished
 2. Move all other files out of the directory.
 3. Double click on the .bat file.
 
-### It is recommended that this script be run on a set of copied .TIF images, not on "sole" copies. 
+### It is recommended that this script be run on a copied .PDF file, not on a "sole" copy. 
 
 ### This script assumes that the computer being used for implementation has PDFtk for Windows installed and that it is working at the commandline.
 
