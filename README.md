@@ -6,6 +6,8 @@ This DOS batch script uses PDFtk (https://www.pdflabs.com/tools/pdftk-the-pdf-to
 
 The original PDF file will remain in the directory after the script has finished processing.  
 
+This script only works with local Windows file paths.
+
 ## How to use this batch script.
 
 1. Place a copy of the .bat file in a directory that has a multipage PDF file that needs to be split.
